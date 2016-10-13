@@ -5,7 +5,7 @@ from pydub import AudioSegment
 from PyQt5.QtWidgets import (QWidget, QPushButton, QLineEdit, QInputDialog, QApplication, QLabel)
 
 app = QApplication(sys.argv)
-text, ok = QInputDialog.getText(None, 'Project' , 'Please enter the location of your song library.  (Windows Ex:C:''\\\\''Users''\\\\''Users''\\\\''Desktop''\\\\''Library')
+text, ok = QInputDialog.getText(None, 'Project' , 'Please enter the location of your song library. (Ex:C:''\\''Users''\\''Users''\\''Desktop''\\''Library)')
 
 path = text
 
