@@ -10,6 +10,8 @@ Abstract: Converts all songs in directory to .wav. Fingerprints all songs and st
 Course:   CST205
 Authors:  Kyle Butler-Fish, Jeff Gearhart, Mark Kinoshita
 Date:     10/14/16
+
+Github repository: https://github.com/mkinoshita22/CST205-Project2
 """
 
 from os import listdir
